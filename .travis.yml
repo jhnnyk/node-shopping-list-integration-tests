@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: V02OL2bSvMpo9QFxgKYoODfic/PtQbuclQ/ZcrW/zEM3fnyRoXvf7d1RA1wsOr1N7fm6wG+e1K7vn5548FFmbupn2NKmpiK5A+G/h+ulQWVsbUY2Ugn5e3es3EmVwUCdnp413jRrKnFlzhAkgHOZzyVsl0BGXTjTn3shikDceRvVvwLnmIABpfa4TBfz8Ou5VSKvu9elmTA59trErBhCM+Yj4bpsPxO+asUP0fHIfTGhftcskFNZQs6uFGV+v2XlCRdPH2umjYhDESf1MG9g8+/OuwfjSAZ0MMGMDDkyupzP7sRlKEet05Iyq1itdGBoyR/vHa16ytUK+Qu1p7/OK0dqcW3G5wqlCxRBtZIj1jqBZ09jFo2SBI+jjHYezOZlYZEBWdLyCeQ+VOULsTeaBWAWoOEj1evKm0i3N/kKpN79WR2ajmu4iGxiZxfBVXd0M5RS3T7FYT6onW+c48taDaDT3z7Yig3usCCLYbThtbNkP/4loeNKXVrOa8NRgoQGUQfKnPnazmlolJ4q5EWIV9NRagRo1vpB9NCEagA+Mg97HQkAVMRRopvDyPjxstdHJU9el5K8bWZkswl1AzE1XmyxdmYo9RrBcpOKrF7WCnrf+K3CKrMuoMIWqEhJLI2bd4BA7oIsZwvHjYdzHL7BsWLMrR1PzPYQpmdsyxEsyNU=
+  app: cryptic-castle-54910
+  on:
+    repo: jhnnyk/node-shopping-list-integration-tests
